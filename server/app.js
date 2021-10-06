@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 app.use(computerRouter);
 app.use("/", (req, res) => {
-    res.send("ok")
+    res.send("ok!!!")
 })
 
 module.exports = app;
